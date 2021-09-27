@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<!--AULA DO DIA 23 / 09 (PROFESSORA TATI)-->
+    <body bgcolor="#F6CED8">
+        <form action="">
+            <fieldset>
+                <legend><img src="/aula3/projeto/img/contato.jpg" alt=""></legend>
+                <p>
+                    <label for="name">
+                        Nome:
+                    </label>
+                    <input type="text" id="name" placeholder="Nome completo">
+                </p>
+                <p>
+                    <label for="dateOfBirth">
+                        Data de nascimento:
+                    </label>
+                    <input type="date" id="dateOfBirth">
+                <p>
+                    <label for="userTel">
+                        Telefone:
+                    </label>
+                    <input type="tel" id="userTel" placeholder="(xx) x xxxx xxxx">
+                </p>
+                <p>
+                    <label for="userEmail">
+                        Email:
+                    </label>
+                    <input type="email" id="userEmail" splaceholder="usuario@operador.com">
+                </p>
+                <p>Selecione os eletrônicos que necessitam de assistência técnica:</p>
+                <input type="checkbox" name="options">Celular<br/>
+                <input type="checkbox" name="options">Notebook<br/>
+                <input type="checkbox" name="options">Televisão<br/>
+                <input type="checkbox"  name="options">Outro: 
+                <input type="text"> 
+                <br/>
+                <br/>
+                <p>
+                <label for="option">Preferência de Atendimento:</label>
+                </p>
+                <input type="radio" id="option1" name="option" value="whatsApp">WhatsApp<br/>
+                <input type="radio" id="option2" name="option" value="email">Email<br/>
+                <input type="radio" id="option3" name="option" value="telfone">Telefone
+                <p>
+                    <label for="shift">Selecione o Período</label>
+                    <select name="shift" id="shift1">
+                        <option value="Turnos">Turnos</option>
+                        <option value="morning">Manhã</option>
+                        <option value="afternoon">Tarde</option>
+                        <option value="night">Noite</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="message">
+                        Mensagem:
+                    </label>
+                    <textarea name="text" id="message" placeholder="Digite sua mensagem" cols="30" rows="10"></textarea>
+                </p>
+                <button type="reset">Limpar dados</button>
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
