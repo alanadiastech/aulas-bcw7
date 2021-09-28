@@ -1,0 +1,22 @@
+body{
+    background-color: rgba(168, 243, 243, 0.3);
+}
+
+.title{
+    font-size: 30px;
+    font-family: cursive, Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: rgb(197, 9, 181);
+}
+
+.subtitle{
+   font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+   font-size: xx-large;
+   font-style: inherit;
+}
+
+.paragraph{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-small;
+    font-style: oblique;
+}

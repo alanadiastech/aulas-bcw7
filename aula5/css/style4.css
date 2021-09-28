@@ -1,0 +1,19 @@
+#father{
+    width: 500px;
+    height: 500px;
+    border: dotted 10px rgb(255, 0, 191);
+    border-radius: 0 15% 0 15%;
+    padding: 1rem;
+    font-size: 26px;
+    background-color: rgb(197, 238, 101);
+}
+
+#son{
+    width: 300px;
+    height: 300px;
+    border: double 10px rgb(255, 0, 0);
+    background-color: rgb(255, 251, 4);
+    margin: 3rem auto;
+    padding: 2rem;
+    border-radius: 25%;
+}
